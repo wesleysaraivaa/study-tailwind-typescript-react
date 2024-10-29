@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <Header />
       <Sidebar />
       <Main />
+      <Footer />
     </div>
   );
 };
