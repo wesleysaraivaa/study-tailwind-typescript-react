@@ -6,7 +6,7 @@ const Header: React.FC = () =>{
         <header className ="flex justify-between items-center bg-blue-600 text-white p-4 font-bold shadow-md" >
             
             <div className="flex items-center gap-4">
-                <img src={Logo} alt="logo" width={60} height={60}/>
+                <img src={Logo} alt="logo" width={60} height={60} />
                 <h1 className="text-2xl"> UniwersoTech </h1>
             </div>
 
@@ -18,7 +18,7 @@ const Header: React.FC = () =>{
                 </ul>
             </div>
 
-        </header>    
+        </header>
     );
 }
 
