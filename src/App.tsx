@@ -7,10 +7,12 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-700">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <Sidebar />
-      <Main />
+      <div className="flex flex-1">
+        <Sidebar />
+        <Main />
+      </div>
       <Footer />
     </div>
   );
